@@ -35,10 +35,11 @@
      background-color: #b4d0e7;
  }
 
- .special-blue-button{
+ a.special-blue-button{
     padding: 5px 10px;
     color: #fff;
     background-color: #0061ff;
+    text-decoration: none;
  }
 
 /* Header */
@@ -49,6 +50,8 @@ header{
 section.main-header{
     height: 80px;
     line-height: 80px;
+    min-width: 1250px;
+    font-weight: 600;
 }
 
 img{
@@ -60,17 +63,49 @@ ul, li{
     display: inline-block;
 }
 
-a{
+section.main-header ul li a{
     text-decoration: none;
     color: #000;
     margin: 0 20px;
-    font-weight: 600;
 }
 
 section.second-header-section{
-    padding: 100px 150px;
+    padding: 100px 150px 170px;
+}
+
+h1{
+    font-size: 75px;
+}
+
+#header-paragraph{
+    padding: 30px 990px 0 0;
+}
+
+section.second-header-section div:first-of-type{
+    margin-top: 30px;
+}
+
+section.second-header-section > div div:nth-of-type(2){
+    margin: 15px 0 30px 0;
+}
+
+section.second-header-section div:nth-of-type(2) > a{
+    text-decoration: none;
+}
+
+div.jumbotron{
+    height: 550px;
+    background-image: url(./img/jumbo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 260px;
+    left: 425px;
+    z-index: 1;
 }
 /* Main */
-
+main{
+    height: 700px;
+}
 
 /* Footer */
