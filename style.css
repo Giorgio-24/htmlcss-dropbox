@@ -26,7 +26,9 @@
 .color-black{
     color: #000;
 }
-
+ .color-grey{
+     color: #586570;
+ }
 .bg-color-blue{
     background-color: #0061ff;
 }
@@ -101,11 +103,60 @@ div.jumbotron{
     position: relative;
     top: 260px;
     left: 425px;
-    z-index: 1;
 }
 /* Main */
 main{
+    margin: 400px 300px 0px;
     height: 700px;
+}
+
+main section.main-first-section > h2{
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+
+main section.main-first-section h2 + div{
+    margin-bottom: 15px;
+}
+ .col{
+     border: 1px solid grey;
+     display: inline-block;
+     width: 30%;
+ }
+
+ main section.main-first-section div.col:nth-of-type(3){
+     margin: 0 50px;
+ }
+
+ div.col-plan{
+    text-align: center;
+    border: 1px solid grey;
+ }
+
+ div.container{
+    padding: 40px 30px;
+ }
+
+ div.col-superior-section div, 
+ .col-inferior-section *{
+    padding: 20px 0;
+}
+
+div.col-superior-section div:nth-child(3){
+    padding: 0 0 40px;
+}
+
+div.col-superior-section + hr{
+    width: 40px;
+}
+
+h4{
+    padding-top: 40px;
+}
+
+ul li i.fas{
+    padding: 0 5px 0 0;
+    color: #0061ff;
 }
 
 /* Footer */
