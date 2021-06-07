@@ -52,7 +52,7 @@ header{
 section.main-header{
     height: 80px;
     line-height: 80px;
-    h3-width: 1250px;
+    width: 1250px;
     font-weight: 600;
 }
 
@@ -250,10 +250,6 @@ div.third-section-jumbotron img{
    div.third-section-col h3{
     font-size: 25px;
     padding-bottom: 40px;
-   }
-
-   div.third-section-col p{
-
    }
 
     .main-third-section-container div.third-section-col:nth-child(3n+2){
