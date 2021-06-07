@@ -52,11 +52,11 @@ header{
 section.main-header{
     height: 80px;
     line-height: 80px;
-    min-width: 1250px;
+    h3-width: 1250px;
     font-weight: 600;
 }
 
-img{
+#logp{
     vertical-align: middle;
     padding-bottom: 7px;
 }
@@ -223,7 +223,40 @@ div.text-box a:last-child{
     padding: 8px 26px;
 }
 
-div.main-third-section{
+section.main-third-section{
     margin-top: 120px;
 }
+
+section.main-third-section h2{
+    font-size: 35px;
+    margin-bottom: 75px;
+}
+
+div.third-section-col{
+     width: 305px;
+     margin-bottom: 135px;
+}
+
+div.third-section-jumbotron{
+    width: 360px;
+    height: 265px;
+   }
+
+div.third-section-jumbotron img{
+    width: 100%;
+    height: 100%;
+   }
+
+   div.third-section-col h3{
+    font-size: 25px;
+    padding-bottom: 40px;
+   }
+
+   div.third-section-col p{
+
+   }
+
+    .main-third-section-container div.third-section-col:nth-child(3n+2){
+        margin: 0px 85px;
+    }
 /* Footer */
