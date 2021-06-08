@@ -102,15 +102,19 @@ header{
 }
 
 section.main-header{
+    position: fixed;
+    z-index: 2;
+    background-color: #fff;
     height: 80px;
+    width: 100%;
     line-height: 80px;
     min-width: 1250px;
     font-weight: 600;
 }
 
-#logp{
+#logo img{
     vertical-align: middle;
-    padding-bottom: 7px;
+    margin-bottom: 5px;
 }
 
 .main-header ul, .main-header li{
