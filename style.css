@@ -189,7 +189,7 @@ main section.main-first-section h2 + div{
     margin-bottom: 15px;
 }
  .col{
-     border: 1px solid grey;
+     border: 1px solid #d0d0d3;
      width: 30%;
      height: 1255px;
  }
@@ -200,7 +200,14 @@ main section.main-first-section h2 + div{
 
  div.plan{
     text-align: center;
-    border: 1px solid grey;
+    border-bottom: 1px solid #d0d0d3;
+ }
+
+  div.larger-column-plan{
+    text-align: center;
+    border-top: 1px solid #d0d0d3;
+    border-right: 1px solid #d0d0d3;
+    border-left: 1px solid #d0d0d3;
  }
 
  div.column-container{
@@ -235,7 +242,7 @@ ul li i.fas{
 
  div.larger-column{
      padding: 45px 30px 35px;
-     border: 1px solid grey;
+     border: 1px solid #d0d0d3;
  }
 
  div.larger-column > div{
