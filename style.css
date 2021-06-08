@@ -386,4 +386,24 @@ div.fourth-section-second-container h3{
     background-color: #fff;
     text-decoration: none;
 }
+
+div.fifth-section-container{
+    height: 780px;
+    padding: 130px 0;
+    font-weight: 600;
+}
+
+div.fifth-section-container h3{
+    font-size: 35px;
+    margin-bottom: 60px;
+}
+
+div.fifth-section-container div.clearfix{
+    padding: 40px 40px 40px 0;
+    border-top: 1px solid black;
+}
+
+div.fifth-section-container div.clearfix:last-child{
+    border-bottom: 1px solid black;
+}
 /* Footer */
