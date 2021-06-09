@@ -20,7 +20,15 @@
     float: right;
 }
 
-i.fas{
+.font-size-28px{
+    font-size: 28px;
+}
+
+.font-size-35px{
+    font-size: 35px;
+}
+
+i, .padding-right-5px{
     padding-right: 5px;
 }
 
@@ -33,6 +41,10 @@ i.fas{
 }
  .color-grey{
      color: #586570;
+ }
+
+ .color-blue{
+     color: #0061ff;
  }
 
  .color-amaranth{
@@ -192,6 +204,39 @@ main section.main-first-section > h2{
 main section.main-first-section h2 + div{
     margin-bottom: 15px;
 }
+
+.buttons{
+    padding: 20px 0;
+}
+
+.buttons *{
+    display: inline-block;
+}
+
+.fake-radio{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #d0d0d3;
+    border-radius: 50%;
+    vertical-align: middle;
+    position: relative;
+}
+
+.fake-small-radio{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fake-radio:hover{
+    background-color: #0061ff;
+}
+
  .col{
      border: 1px solid #d0d0d3;
      width: 30%;
@@ -313,7 +358,6 @@ div.main-third-section-container{
 }
 
 section.main-third-section h2{
-    font-size: 35px;
     margin-bottom: 75px;
 }
 
@@ -351,7 +395,7 @@ div.third-section-jumbotron img{
     }
 
     .third-section-end h3{
-        font-size: 35px;
+
         margin-bottom: 50px;
     }
 
@@ -415,10 +459,6 @@ div.fourth-section-second-container div.float-right{
     margin: 140px 260px 0 0;
 } 
 
-div.fourth-section-second-container h3{
-     font-size: 35px;
-}
-
 #free-trial-button{
     padding: 8px 50px;
     color: #000;
@@ -433,7 +473,6 @@ div.fifth-section-container{
 }
 
 div.fifth-section-container h3{
-    font-size: 35px;
     margin-bottom: 60px;
 }
 
