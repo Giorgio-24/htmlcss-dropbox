@@ -32,6 +32,10 @@ i, .padding-right-5px{
     padding-right: 5px;
 }
 
+.color-invert{
+    filter: invert(1);
+}
+
 .color-white{
     color: #fff;
 }
